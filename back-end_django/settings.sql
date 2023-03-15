@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE back;
+CREATE USER backuser WITH PASSWORD 'back';
+GRANT ALL PRIVILEGES ON DATABASE back TO backuser;
